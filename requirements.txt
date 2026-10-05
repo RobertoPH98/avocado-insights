@@ -1,0 +1,9 @@
+# Python 3.12. Paquetes analíticos utilizados en la ejecución verificada.
+pandas==2.2.3
+numpy==2.3.5
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+ipython>=8,<10
+ipykernel>=6,<8
+jupyterlab>=4,<5

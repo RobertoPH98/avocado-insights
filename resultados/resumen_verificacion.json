@@ -1,0 +1,19 @@
+{
+  "filas_originales": 15474,
+  "registros_elegibles": 13593,
+  "municipio_anio": 11665,
+  "municipios_2025": 655,
+  "productores_2025": 644,
+  "produccion_2025_t": 2792481.0500000003,
+  "participacion_michoacan_pct": 72.68333011606292,
+  "municipios_80pct": 34,
+  "k_perfiles": 2,
+  "versiones": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.8.0"
+  },
+  "sha256_fuente": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3"
+}

@@ -1,0 +1,25 @@
+﻿variable,descripcion,unidad,rol,tipo_pandas,distintos,faltantes,faltantes_pct
+AÑO,Año agrícola,año,Temporal discreta,int64,46,0,0.0
+CVE_ENT,Clave de entidad federativa,código,Identificador,int64,31,0,0.0
+ENTIDAD,Nombre de la entidad,categoría,Nominal,object,31,0,0.0
+CVE_MUN,Clave de municipio dentro de la entidad; 999 en histórico sin municipio,código,Identificador,int64,301,0,0.0
+MUNICIPIO,Nombre municipal,categoría,Nominal,object,763,981,6.339666537417604
+CVE_DDR,Clave del Distrito de Desarrollo Rural,código,Identificador,float64,116,981,6.339666537417604
+DISTRITO,Nombre del Distrito de Desarrollo Rural,categoría,Nominal,object,116,981,6.339666537417604
+CVE_CADER,Clave del Centro de Apoyo al Desarrollo Rural; no es globalmente única,código,Identificador,float64,10,981,6.339666537417604
+CADER,Nombre del Centro de Apoyo al Desarrollo Rural; no es un centro de acopio,categoría,Nominal,object,295,981,6.339666537417604
+CVE_CICLO,Clave de ciclo agrícola,código,Identificador,int64,1,0,0.0
+CICLE,Ciclo agrícola; nombre de columna conservado de la copia,categoría,Nominal,object,1,0,0.0
+CVE_MODALIDAD,Clave de modalidad hídrica,código,Identificador,int64,2,0,0.0
+MODALIDAD,Riego o temporal,categoría,Nominal,object,2,0,0.0
+CVE_UNIDAD,Clave de unidad de medida,código,Identificador,int64,1,0,0.0
+UNIDAD_MEDIDA,Unidad del volumen,categoría,Nominal,object,1,0,0.0
+CVE_CULTIVO,Clave del cultivo,código,Identificador,int64,1,0,0.0
+CULTIVO,Nombre del cultivo,categoría,Nominal,object,1,0,0.0
+SUPERFICIE_SEMBRADA,Área sembrada,ha,Cuantitativa,float64,2247,0,0.0
+SUPERFICIE_COSECHADA,Área cosechada,ha,Cuantitativa,float64,2024,0,0.0
+SUPERFICIE_SINIESTRADA,Área reportada como siniestrada,ha,Cuantitativa,float64,17,0,0.0
+VOLUMEN_PRODUCCION,Producción anual reportada,t,Cuantitativa,float64,8248,0,0.0
+RENDIMIENTO,Producción / superficie cosechada,t/ha,Razón derivada,float64,1572,33,0.21326095385808455
+PRECIO,Precio medio rural,MXN/t corrientes,Razón / magnitud,float64,9349,33,0.21326095385808455
+VALOR_PRODUCCION,Valor nominal de producción,MXN corrientes,Cuantitativa,float64,12338,0,0.0
