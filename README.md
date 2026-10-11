@@ -59,6 +59,3 @@ En 2025: 655 municipios registrados, 644 con producción positiva y 2,792,481.05
 
 Aclarar 2024 con la fuente oficial e integrar rutas, centros de acopio, demanda, capacidades y consumo medido. El EDA no entrena ni evalúa modelos predictivos y no reporta ahorros no medidos.
 
-## Entrega en Canvas
-
-Entregar el enlace **directo al notebook en GitHub**, no solo la raíz del repositorio ni el ZIP. Instrucciones en `documentacion/COMO_SUBIR_Y_ENTREGAR.md`.
