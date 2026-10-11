@@ -1,0 +1,31 @@
+{
+  "notebook": "notebooks/Avance2.Equipo4.ipynb",
+  "celdas_codigo": 14,
+  "figuras_incrustadas": 9,
+  "secuencia": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "salidas_error": 0,
+  "advertencias_capturadas": 0,
+  "rubrica": {
+    "construccion_30": "Secciones 2–5: 22 atributos numéricos, historia calendario, diccionario, binning y one-hot",
+    "normalizacion_30": "Secciones 6–7: diagnóstico de transformaciones y escalamiento ajustado en train",
+    "seleccion_extraccion_30": "Secciones 8–9: varianza, Spearman, indicadores repetidos, sensibilidad y PCA",
+    "conclusiones_10": "Sección 12: conclusión general CRISP-ML(Q) y transición a modelado"
+  },
+  "controles_analiticos": "resultados/avance2/24_controles_calidad.csv",
+  "estado_publicacion": "Paquete local preparado; publicación en GitHub y envío en Canvas pendientes del usuario"
+}

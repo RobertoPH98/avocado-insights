@@ -1,0 +1,75 @@
+columna,decision,en_matriz_seleccionada,entra_a_PCA
+produccion_lag2,Conservada,True,True
+produccion_lag3,Conservada,True,True
+produccion_lag4,Conservada,True,True
+cosechada_lag2,Redundancia Spearman,False,False
+sembrada_lag2,Conservada,True,True
+valor_lag2,Redundancia Spearman,False,False
+rendimiento_lag2,Conservada,True,True
+precio_lag2,Conservada,True,True
+valor_por_ha_lag2,Conservada,True,True
+media_produccion_3,Redundancia Spearman,False,False
+sd_produccion_3,Conservada,True,True
+cv_produccion_3,Conservada,True,True
+min_produccion_3,Conservada,True,True
+max_produccion_3,Conservada,True,True
+cambio_log_produccion,Conservada,True,True
+cambio_log_cosechada,Conservada,True,True
+fraccion_cosechada_lag2,Conservada,True,True
+fraccion_siniestrada_lag2,Varianza cero,False,False
+fraccion_riego_lag2,Conservada,True,True
+participacion_estatal_lag2,Conservada,True,True
+n_observaciones_3,Conservada,True,True
+indice_anio,Conservada,True,True
+falta_produccion_lag2,Varianza cero,False,False
+falta_produccion_lag3,Conservada,True,False
+falta_produccion_lag4,Conservada,True,False
+falta_cosechada_lag2,Varianza cero,False,False
+falta_sembrada_lag2,Varianza cero,False,False
+falta_valor_lag2,Varianza cero,False,False
+falta_rendimiento_lag2,Indicador idéntico,False,False
+falta_precio_lag2,Indicador idéntico,False,False
+falta_valor_por_ha_lag2,Indicador idéntico,False,False
+falta_media_produccion_3,Conservada,True,False
+falta_sd_produccion_3,Indicador idéntico,False,False
+falta_cv_produccion_3,Conservada,True,False
+falta_min_produccion_3,Indicador idéntico,False,False
+falta_max_produccion_3,Indicador idéntico,False,False
+falta_cambio_log_produccion,Indicador idéntico,False,False
+falta_cambio_log_cosechada,Indicador idéntico,False,False
+falta_fraccion_cosechada_lag2,Varianza cero,False,False
+falta_fraccion_siniestrada_lag2,Varianza cero,False,False
+falta_fraccion_riego_lag2,Indicador idéntico,False,False
+falta_participacion_estatal_lag2,Varianza cero,False,False
+falta_n_observaciones_3,Varianza cero,False,False
+falta_indice_anio,Varianza cero,False,False
+sin_cosecha_lag2,Conservada,True,False
+estado_lag2_04,Conservada,True,False
+estado_lag2_06,Conservada,True,False
+estado_lag2_07,Conservada,True,False
+estado_lag2_10,Conservada,True,False
+estado_lag2_11,Conservada,True,False
+estado_lag2_12,Conservada,True,False
+estado_lag2_13,Conservada,True,False
+estado_lag2_14,Conservada,True,False
+estado_lag2_15,Conservada,True,False
+estado_lag2_16,Conservada,True,False
+estado_lag2_17,Conservada,True,False
+estado_lag2_18,Conservada,True,False
+estado_lag2_19,Conservada,True,False
+estado_lag2_20,Conservada,True,False
+estado_lag2_21,Conservada,True,False
+estado_lag2_22,Conservada,True,False
+estado_lag2_27,Conservada,True,False
+estado_lag2_30,Conservada,True,False
+estado_lag2_31,Conservada,True,False
+estado_lag2_32,Conservada,True,False
+estado_lag2_infrequent_sklearn,Conservada,True,False
+perfil_riego_lag2_Mixto,Conservada,True,False
+perfil_riego_lag2_Riego,Conservada,True,False
+perfil_riego_lag2_Sin cosecha,Indicador idéntico,False,False
+perfil_riego_lag2_Temporal,Conservada,True,False
+escala_produccion_Q1,Conservada,True,False
+escala_produccion_Q2,Conservada,True,False
+escala_produccion_Q3,Conservada,True,False
+escala_produccion_Q4,Conservada,True,False

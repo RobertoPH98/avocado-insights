@@ -1,0 +1,28 @@
+variable,construccion,unidad,ultima_medicion,justificacion
+produccion_lag2,Producción municipal observada en t-2,t,t-2,Persistencia e historia de oferta; no sustituye una ausencia por cero.
+produccion_lag3,Producción municipal observada en t-3,t,t-3,Persistencia e historia de oferta; no sustituye una ausencia por cero.
+produccion_lag4,Producción municipal observada en t-4,t,t-4,Persistencia e historia de oferta; no sustituye una ausencia por cero.
+cosechada_lag2,cosechada del panel municipal en t-2,ha,t-2,Capacidad efectivamente cosechada; no equivale a causalidad.
+sembrada_lag2,sembrada del panel municipal en t-2,ha,t-2,Base territorial plantada; no equivale a causalidad.
+valor_lag2,valor del panel municipal en t-2,MXN nominales,t-2,Escala económica histórica; no equivale a causalidad.
+rendimiento_lag2,rendimiento del panel municipal en t-2,t/ha,t-2,Productividad agronómica; no equivale a causalidad.
+precio_lag2,precio del panel municipal en t-2,MXN nominales/t,t-2,Señal de valor unitario local; no equivale a causalidad.
+valor_por_ha_lag2,valor_por_ha del panel municipal en t-2,MXN nominales/ha,t-2,Intensidad económica; no equivale a causalidad.
+media_produccion_3,"media sobre t-2,t-3,t-4; mínimo 2 observaciones",t,t-2,"Resume nivel, variación y extremos del historial."
+sd_produccion_3,"desviación estándar muestral ddof=1 sobre t-2,t-3,t-4; mínimo 2 observaciones",t,t-2,"Resume nivel, variación y extremos del historial."
+min_produccion_3,"mínimo sobre t-2,t-3,t-4; mínimo 2 observaciones",t,t-2,"Resume nivel, variación y extremos del historial."
+max_produccion_3,"máximo sobre t-2,t-3,t-4; mínimo 2 observaciones",t,t-2,"Resume nivel, variación y extremos del historial."
+cv_produccion_3,sd_produccion_3 / media_produccion_3 si media>0,adimensional,t-2,Variabilidad relativa; indefinida si media=0.
+cambio_log_produccion,log1p(produccion[t-2])-log1p(produccion[t-3]),adimensional,t-2,Cambio suavizado que admite ceros; no es tasa porcentual exacta.
+cambio_log_cosechada,log1p(cosechada[t-2])-log1p(cosechada[t-3]),adimensional,t-2,Cambio suavizado que admite ceros; no es tasa porcentual exacta.
+fraccion_cosechada_lag2,"cosechada/sembrada en t-2, denominador>0",proporción,t-2,"Aprovechamiento de superficie; no es distancia, costo ni emisión."
+fraccion_siniestrada_lag2,"siniestrada/sembrada en t-2, denominador>0",proporción,t-2,"Antecedente de afectación; no es distancia, costo ni emisión."
+fraccion_riego_lag2,"ha cosechadas en riego/ha cosechadas totales en t-2, denominador>0",proporción,t-2,"Dependencia del riego; no es distancia, costo ni emisión."
+participacion_estatal_lag2,"producción municipal/producción estatal del mismo año en t-2, denominador>0",proporción,t-2,"Concentración de oferta en el estado; no es distancia, costo ni emisión."
+n_observaciones_3,"Conteo no faltante en t-2,t-3,t-4",conteo,t-2,Calidad/cobertura del historial.
+indice_anio,Año objetivo - 2003,años,calendario conocido,Tendencia determinista conocida en el origen.
+sin_cosecha_lag2,"1 si cosechada[t-2]=0, 0 de otro modo",binaria,t-2,Conserva el estado sin cosecha.
+estado_lag2,CVE_ENT de la observación t-2; one-hot,categoría,t-2,Contexto territorial; clave no implica orden.
+perfil_riego_lag2,"Sin cosecha, Temporal (0), Riego (1), Mixto (0<fracción<1); one-hot",categoría,t-2,"Composición tecnológica observada, no clima medido."
+escala_produccion,Cuartiles de produccion_lag2 aprendidos solo en train; one-hot,categoría,t-2,Relación por tramos sin imponer distancias iguales entre categorías.
+falta_*,1 si el atributo numérico está ausente antes de imputar,binaria,t-2,Distingue valores observados de la mediana usada para el algoritmo.

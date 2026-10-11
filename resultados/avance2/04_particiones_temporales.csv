@@ -1,0 +1,8 @@
+uso,años_objetivo,regla
+Entrenamiento,2007–2015,"Ajustar imputación, transformaciones, codificación, filtros y PCA"
+Separación temporal,2016–2017,No se usan como objetivos para ajuste ni evaluación
+Validación,2018–2020,Comparación instrumental de representaciones; sin reajuste del preprocesador
+Separación temporal,2021–2022,No se usan como objetivos; sí como historia cuando sea disponible
+Reserva interna,2023,Solo transformación y comprobaciones de integridad; sin puntuación predictiva
+Cuarentena,2024,Sin uso hasta resolver granularidad
+Aplicación retrospectiva,2025,Demostrar que el pipeline transforma casos posteriores usando historia hasta 2023

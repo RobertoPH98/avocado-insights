@@ -1,0 +1,13 @@
+# Entorno analítico verificado: Python 3.12.14
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+joblib==1.5.3
+nbformat>=5.10,<6
+ipython>=8,<10
+ipykernel>=6,<8
+matplotlib-inline>=0.1,<1
+jupyterlab>=4,<5

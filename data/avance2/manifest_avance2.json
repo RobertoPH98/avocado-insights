@@ -1,0 +1,68 @@
+{
+  "proyecto": "Avocado Insights",
+  "equipo": 4,
+  "fase": "Avance 2",
+  "fecha": "2026-10-11",
+  "repositorio_base_commit": "79de83046351f162cd0024cdac3424bfc1fc304a",
+  "sha256_fuente": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3",
+  "target": "produccion_t",
+  "unidad_target": "toneladas",
+  "max_medicion_predictor": "t-2",
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3"
+  },
+  "anios_ajuste": [
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "filas_ajuste": 3930,
+  "pca_varianza_retenida": 0.9706070042869333,
+  "pca_componentes": 10,
+  "controles_ok": 18,
+  "matrices": [
+    {
+      "particion": "train",
+      "filas": 3930,
+      "columnas_seleccionadas": 51,
+      "columnas_pca": 43,
+      "archivo": "data/avance2/matrices_train.npz"
+    },
+    {
+      "particion": "validacion",
+      "filas": 1734,
+      "columnas_seleccionadas": 51,
+      "columnas_pca": 43,
+      "archivo": "data/avance2/matrices_validacion.npz"
+    },
+    {
+      "particion": "reserva_2023",
+      "filas": 637,
+      "columnas_seleccionadas": 51,
+      "columnas_pca": 43,
+      "archivo": "data/avance2/matrices_reserva_2023.npz"
+    },
+    {
+      "particion": "aplicacion_2025",
+      "filas": 647,
+      "columnas_seleccionadas": 51,
+      "columnas_pca": 43,
+      "archivo": "data/avance2/matrices_aplicacion_2025.npz"
+    }
+  ],
+  "limitacion_disponibilidad": "Sin archivo de vintages ni fechas de publicación por registro",
+  "aplicacion_2025": "Retrospectiva; no es un pronóstico futuro emitido en tiempo real"
+}

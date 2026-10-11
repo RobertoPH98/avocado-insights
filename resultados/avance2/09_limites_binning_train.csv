@@ -1,0 +1,5 @@
+tramo,limite_inferior,limite_superior
+Q1,-inf,14.55
+Q2,14.55,58.5
+Q3,58.5,270.0
+Q4,270.0,inf

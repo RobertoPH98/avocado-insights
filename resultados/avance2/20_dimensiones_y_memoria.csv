@@ -1,0 +1,4 @@
+representacion,filas,columnas,bytes_matriz_densa_float64,reduccion_columnas_pct
+Completa,3930,74,2326560,0.0
+Seleccionada,3930,51,1603440,31.081081081081084
+PCA + indicadores,3930,43,1351920,41.891891891891895

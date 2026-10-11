@@ -1,0 +1,4 @@
+variable_eliminada,variable_conservada,rho_spearman,criterio
+cosechada_lag2,produccion_lag2,0.960904610246286,|rho| > 0.95; prioridad de dominio
+valor_lag2,produccion_lag2,0.9664051175908362,|rho| > 0.95; prioridad de dominio
+media_produccion_3,produccion_lag3,0.9618697102678433,|rho| > 0.95; prioridad de dominio

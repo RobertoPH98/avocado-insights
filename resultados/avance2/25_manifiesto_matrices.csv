@@ -1,0 +1,5 @@
+particion,filas,columnas_seleccionadas,columnas_pca,archivo
+train,3930,51,43,data/avance2/matrices_train.npz
+validacion,1734,51,43,data/avance2/matrices_validacion.npz
+reserva_2023,637,51,43,data/avance2/matrices_reserva_2023.npz
+aplicacion_2025,647,51,43,data/avance2/matrices_aplicacion_2025.npz

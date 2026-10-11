@@ -1,0 +1,19 @@
+control,resultado,evidencia
+Fuente fijada por SHA-256,OK,f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3
+Clave municipal anual única,OK,11665 filas sin claves repetidas
+Separación de la historia estatal,OK,1980–2002 no se asignan a municipios
+Cuarentena preservada,OK,2024 no participa en el panel
+Estadísticas ajustadas solo en train,OK,"[2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]"
+"Objetivo observado, sin imputación",OK,Ninguna etiqueta fue rellenada
+Última medición anterior al objetivo,OK,Todas las mediciones de entrada son de t-2 o anteriores
+Rezago por calendario y municipio,OK,Unión independiente por cvegeo y año+2; 2025 usa 2023
+Perturbación futura no cambia el pasado,OK,Copias con magnitudes futuras multiplicadas por 13; X anterior idéntica
+El objetivo no entra en transform,OK,X idéntica al modificar solamente y
+Matriz válida train,OK,3930 filas; 51 columnas seleccionadas y 43 con PCA
+Matriz válida validacion,OK,1734 filas; 51 columnas seleccionadas y 43 con PCA
+Matriz válida reserva_2023,OK,637 filas; 51 columnas seleccionadas y 43 con PCA
+Matriz válida aplicacion_2025,OK,647 filas; 51 columnas seleccionadas y 43 con PCA
+Transform no reajusta parámetros,OK,Media y componentes idénticos después de transformar todas las cohortes
+Estado no visto compatible,OK,Categoría desconocida con esquema constante
+Indicadores filtrados siguen siendo equivalentes,OK,Sin divergencias en las cohortes transformadas
+Serialización reproducible,OK,Restaurar el objeto produce exactamente la misma matriz

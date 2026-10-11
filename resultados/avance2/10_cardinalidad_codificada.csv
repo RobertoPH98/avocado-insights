@@ -1,0 +1,4 @@
+variable,cardinalidad_original_train,columnas_onehot
+estado_lag2,28,21
+perfil_riego_lag2,4,4
+escala_produccion,4,4
