@@ -1,0 +1,4 @@
+criterio,observado,referencia_o_umbral,regla,cumple
+Mínimo: no empeorar persistencia,743.8232965915716,852.2975196232337,MAE menor o igual,True
+Mínimo: superar mediana global,743.8232965915716,4625.200989010989,MAE estrictamente menor,True
+Meta adicional propuesta,12.72727193663712,5.0,Mejora MAE al menos 5%,True

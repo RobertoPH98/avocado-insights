@@ -1,0 +1,115 @@
+{
+  "proyecto": "Avocado Insights",
+  "fase": "Avance 3. Baseline",
+  "equipo": 4,
+  "fecha": "2026-10-18",
+  "repositorio_base_commit": "b2f9b416cfdae17996d63f12caa07ca23bfb8d11",
+  "sha256_agricola": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3",
+  "algoritmo": "Ridge nivel",
+  "hiperparametros": {
+    "alpha": 1.0,
+    "solver": "svd",
+    "intercepto": false
+  },
+  "entradas": [
+    "produccion_lag2"
+  ],
+  "columnas_efectivas": [
+    "produccion_lag2"
+  ],
+  "objetivo": "Producción anual municipal de aguacate",
+  "unidad": "toneladas",
+  "ultima_medicion_X": "t-2",
+  "ultima_etiqueta_por_origen": "t-3",
+  "ventanas_validacion": [
+    {
+      "origen": 2018,
+      "inicio_train": 2007,
+      "fin_train": 2015,
+      "n_train": 3930,
+      "n_validacion": 558,
+      "ultima_medicion_validacion": 2016,
+      "anios_macro_distintos_train": 9
+    },
+    {
+      "origen": 2019,
+      "inicio_train": 2007,
+      "fin_train": 2016,
+      "n_train": 4444,
+      "n_validacion": 578,
+      "ultima_medicion_validacion": 2017,
+      "anios_macro_distintos_train": 10
+    },
+    {
+      "origen": 2020,
+      "inicio_train": 2007,
+      "fin_train": 2017,
+      "n_train": 4973,
+      "n_validacion": 598,
+      "ultima_medicion_validacion": 2018,
+      "anios_macro_distintos_train": 11
+    }
+  ],
+  "entrenamiento_final": {
+    "inicio": 2007,
+    "fin": 2020,
+    "filas": 6707
+  },
+  "prueba_interna": {
+    "anio": 2023,
+    "filas": 637,
+    "metricas": {
+      "n": 637,
+      "MAE_t": 743.8232965915716,
+      "RMSE_t": 6081.879993558207,
+      "WAPE_pct": 15.94474185945172,
+      "sesgo_t": -643.259532146977,
+      "sesgo_pct": -13.789037309955438,
+      "R2": 0.9438327913807607,
+      "RMSLE": 0.762396135639024
+    },
+    "skill_vs_persistencia": 0.1272727193663712
+  },
+  "cumple_minimo_tecnico": true,
+  "cumple_meta_5pct": true,
+  "sensibilidad_estado": {
+    "n_replicas": 1500,
+    "semilla": 42,
+    "estados": 28,
+    "skill_puntual": 0.1272727193663714,
+    "percentil_2_5": -0.06891077377752922,
+    "percentil_97_5": 0.1388303979505271
+  },
+  "coeficientes": [
+    {
+      "variable": "produccion_lag2",
+      "coeficiente_estandarizado_t": 18106.21143512922,
+      "coeficiente_unidad_original": 1.048680322005563,
+      "escala_train": 17265.71106102358
+    }
+  ],
+  "intercepto_original_t": 0.0,
+  "controles_aprobados": 21,
+  "figuras": 8,
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "pdfplumber": "0.11.9"
+  },
+  "limitaciones": [
+    "Instantáneas revisadas sin vintages de publicación",
+    "2023 ya explorado descriptivamente en Avance 1",
+    "Cohorte con historia t-2; municipios sin historia requieren otro mecanismo",
+    "Clima estatal, no temperatura de parcela; año 2013 climático en cuarentena",
+    "Sin calendario arancelario ni criminalidad armonizada",
+    "Sin evaluación prospectiva o costos validados"
+  ],
+  "uso_previsto": "Referencia retrospectiva para modelos posteriores de oferta territorial",
+  "estado_operativo": "Baseline de investigación; aceptación de negocio pendiente"
+}

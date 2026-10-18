@@ -1,0 +1,6 @@
+factor,hipotesis,fuente,tratamiento
+Inflación EE. UU.,Demanda y condiciones económicas; efecto indirecto sobre oferta,WDI · USA · FP.CPI.TOTL.ZG,Integrada con rezago t-2; efecto predictivo por comprobar
+Dólar / peso,Incentivos de comercialización e insumos; magnitud y dirección no garantizadas,WDI · MEX · PA.NUS.FCRF,Integrado como depreciación anual histórica e interacción con oferta
+Temperatura,Condiciones agronómicas previas y variación térmica,SMN/CONAGUA · tablas TMED,Integrada por estado; no equivale a microclima de parcela
+Aranceles,"Acceso a mercado por producto, origen y fecha de vigencia",USITC · Harmonized Tariff Schedule,Pendiente: serie histórica y elegibilidad por fracción; no se asigna una tasa constante inventada
+Criminalidad,"Interrupciones, riesgos y restricciones de operación territorial",SESNSP · datos abiertos municipales desde 2015,Pendiente: armonización metodológica y cobertura previa; no se rellenan los años sin registro con cero

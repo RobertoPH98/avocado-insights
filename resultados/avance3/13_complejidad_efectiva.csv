@@ -1,0 +1,5 @@
+variante,entradas_originales,columnas_efectivas,constantes_retiradas
+Ridge nivel,1,1,Ninguna
+Ridge capacidad,6,9,Ninguna
+Ridge con externos,14,21,Ninguna
+Ridge atributos A2,22,34,fraccion_siniestrada_lag2

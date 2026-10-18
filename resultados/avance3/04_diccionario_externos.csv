@@ -1,0 +1,9 @@
+variable,construccion,unidad,fundamento
+inflacion_usa_lag2,Inflación al consumidor USA[t-2],% anual,Hipótesis macroeconómica compartida por el año
+depreciacion_mxn_lag2,100 × (MXN/USD[t-2] / MXN/USD[t-3] − 1),%,Positivo significa depreciación histórica del peso
+temperatura_estado_lag2,Temperatura media anual publicada del estado[t-2],°C,"Contexto regional, no exposición exacta de la parcela"
+amplitud_mensual_lag2,Máximo − mínimo de las 12 temperaturas medias mensuales del estado[t-2],°C,Estacionalidad térmica; no son extremos diarios
+cambio_temperatura_lag2,Media anual estatal[t-2] − media anual estatal[t-3],°C,Variación interanual histórica
+oferta_x_inflacion,Producción[t-2] × inflación USA[t-2] / 100,t × tasa,Permite que un shock agregado tenga escala proporcional a la oferta
+oferta_x_depreciacion,Producción[t-2] × depreciación MXN[t-2] / 100,t × tasa,Evita imponer idéntico efecto en toneladas a municipios pequeños y grandes
+oferta_x_cambio_temperatura,Producción[t-2] × cambio de temperatura estatal[t-2],t × °C,"Interacción lineal exploratoria, no relación causal demostrada"

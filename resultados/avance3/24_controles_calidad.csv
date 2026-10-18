@@ -1,0 +1,22 @@
+control,estado,evidencia
+SHA-256 agrícola intacto,OK,f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3
+Hashes de fuentes externas,OK,2 JSON macro y 21 PDFs contrastados con manifiestos
+Clave municipal anual única,OK,9247 filas modelables en toda la historia
+Conservación de filas en uniones,OK,Unión independiente con año+2
+Historia estatal y 2024 aislados,OK,Separación por nivel geográfico y claves ambiguas
+Año climático conflictivo aislado,OK,PDF 2013 con encabezado 2012: sin valores asignados
+Ausencia climática acotada,OK,Únicamente t−2/t−3 de 2013 en cuarentena
+Macro sin imputación,OK,"Unión anual exacta, no forward fill"
+Unión macro de calendario,OK,Inflación t−2 contrastada con lookup independiente
+Producción histórica por calendario,OK,No se usa la fila anterior disponible como si fuera otro año
+Cortes de validación,OK,"[{'origen': 2018, 'fin_train': 2015}, {'origen': 2019, 'fin_train': 2016}, {'origen': 2020, 'fin_train': 2017}]"
+2023 no participa en selección,OK,Elección registrada antes de la primera puntuación de prueba
+Parámetros y selección congelados,OK,c518659e015c5113d781572e2246808fe3d933d9f94014295f46adbdc84f23c3
+Modelo final entrenado hasta 2020,OK,6707
+Objetivo fuera de X,OK,['produccion_lag2']
+Cambiar y no altera predicción,OK,Perturbación solo para probar la independencia de X
+Predicción no reajusta parámetros,OK,Transformación y coeficientes inmutables al predecir
+Matrices y predicciones finitas,OK,1 columnas efectivas; 637 predicciones
+Objetivo 2025 fuera de evaluación,OK,Sin reutilizar periodos posteriores como validación
+Modelo guardado conserva resultados,OK,Mismas predicciones tras restauración
+Coeficiente de nivel contrastado,OK,Contraste independiente con solución analítica de una variable

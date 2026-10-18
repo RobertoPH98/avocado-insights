@@ -1,0 +1,6 @@
+artefacto,ruta
+Modelo y preparación,data/avance3/baseline_ridge.joblib
+Ficha y parámetros,data/avance3/ficha_modelo.json
+Predicciones de prueba,resultados/avance3/15_predicciones_prueba_2023.csv
+Panel integrado,data/avance3/panel_atributos_integrados.csv
+Fuentes externas originales,data/externos/

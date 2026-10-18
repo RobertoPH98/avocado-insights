@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-10-18",
+  "objetivo": "produccion_t",
+  "ultima_medicion_X": "t-2",
+  "fin_etiquetas_ajuste_por_origen": "origen-3",
+  "anios_validacion": [
+    2018,
+    2019,
+    2020
+  ],
+  "anio_prueba": 2023,
+  "familia": "Ridge alpha=1; variantes nivel, capacidad, externos y atributos_A2",
+  "seleccion": "menor MAE conjunto en predicciones de validación de origen móvil; desempate menos columnas",
+  "criterio_minimo": "MAE_prueba no mayor que persistencia t-2 y menor que mediana global de entrenamiento",
+  "objetivo_mejora_propuesto_pct": 5,
+  "estado_umbral": "Técnico y provisional; no es un SLA validado por el sponsor",
+  "metricas": [
+    "MAE_t",
+    "RMSE_t",
+    "WAPE_pct",
+    "sesgo_pct",
+    "R2",
+    "RMSLE"
+  ],
+  "holdout": "Reserva interna; ya hubo exploración descriptiva en el EDA, sin ajuste con sus etiquetas en Avance 3",
+  "politica": "No modificar selección ni parámetros después de puntuar 2023"
+}

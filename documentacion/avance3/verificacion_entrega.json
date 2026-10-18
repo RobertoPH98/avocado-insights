@@ -1,0 +1,36 @@
+{
+  "notebook": "notebooks/Avance3.Equipo4.ipynb",
+  "celdas_codigo": 14,
+  "secuencia": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "errores": 0,
+  "advertencias_capturadas": 0,
+  "figuras_incrustadas": 8,
+  "controles_analiticos_aprobados": 21,
+  "metodo_ejecucion": {
+    "celdas_codigo": 14,
+    "errores": 0,
+    "metodo": "IPython en proceso nuevo; celdas reales ejecutadas secuencialmente, namespace limpio, sin sockets de kernel"
+  },
+  "rubrica": {
+    "algoritmo_40": "Secciones 3–4: protocolo temporal, alternativas Ridge y elección por validación",
+    "caracteristicas_20": "Sección 5: filtro, regularización, selección de representaciones y ablación visual",
+    "sub_sobreajuste_10": "Sección 7: métricas ajuste/prueba, curva histórica y residuos",
+    "metrica_20": "Sección 2: MAE de negocio, WAPE, RMSE, sesgo, R2, RMSLE y ceros",
+    "desempeno_10": "Sección 9: mínimo y meta provisional, criterios verificados y sensibilidad espacial"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "variante": "Ridge nivel",
+  "columnas": [
+    "produccion_lag2"
+  ],
+  "alpha": 1.0,
+  "solver": "svd",
+  "metrica_eleccion": "MAE validación concatenada 2018–2020",
+  "MAE_validacion_t": 539.9516944473371,
+  "etiquetas_prueba_usadas_para_elegir": 0
+}

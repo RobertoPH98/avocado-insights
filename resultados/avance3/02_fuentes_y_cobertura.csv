@@ -1,0 +1,6 @@
+conjunto,filas_o_documentos,cobertura,decision
+Agrícola SIAP / copia documentada,15474,1980–2025,Municipio desde 2003; excluir 2024 ambiguo
+Panel agrícola compatible,11665,2003–2023 y 2025,"11,665 claves municipio-año únicas"
+Inflación EE. UU. y MXN/USD,24,2000–2023,Dos series anuales; sin ausencias
+Tablas de temperatura aceptadas,660,"2003–2023, salvo 2013","660 filas: 32 estados + nacional, en 20 años"
+PDFs climáticos preservados,21,2003–2023,21 originales; uno en cuarentena por conflicto de año

@@ -1,0 +1,4 @@
+origen,inicio_train,fin_train,n_train,n_validacion,ultima_medicion_validacion,anios_macro_distintos_train
+2018,2007,2015,3930,558,2016,9
+2019,2007,2016,4444,578,2017,10
+2020,2007,2017,4973,598,2018,11

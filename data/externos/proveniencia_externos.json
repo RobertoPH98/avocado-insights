@@ -1,0 +1,34 @@
+[
+  {
+    "archivo": "inflacion_usa.json",
+    "url": "https://api.worldbank.org/v2/country/USA/indicator/FP.CPI.TOTL.ZG?format=json&date=2000:2023&per_page=100",
+    "pais": "USA",
+    "indicador": "FP.CPI.TOTL.ZG",
+    "consulta": "2026-10-18",
+    "sha256": "f5ec399dd198a6e6a5eb4bd4ee4279929b3358e68f49f8c1d16855a03ed435d2",
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 100,
+      "total": 24,
+      "sourceid": "2",
+      "lastupdated": "2026-10-08"
+    }
+  },
+  {
+    "archivo": "tipo_cambio_mex.json",
+    "url": "https://api.worldbank.org/v2/country/MEX/indicator/PA.NUS.FCRF?format=json&date=2000:2023&per_page=100",
+    "pais": "MEX",
+    "indicador": "PA.NUS.FCRF",
+    "consulta": "2026-10-18",
+    "sha256": "011be31256860838cb11558946e1f48277a07063840be8e5706e97567f766696",
+    "metadata": {
+      "page": 1,
+      "pages": 1,
+      "per_page": 100,
+      "total": 24,
+      "sourceid": "2",
+      "lastupdated": "2026-10-08"
+    }
+  }
+]
