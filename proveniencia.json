@@ -1,0 +1,15 @@
+{
+  "fuente_original": "DGSIAP/SADER, Cierre de la producción agrícola",
+  "portal_oficial": "https://nube.agricultura.gob.mx/datosAbiertos/Agricola.php",
+  "distribuidor_copia": "Montse (lapanquecita), repositorio aguacate",
+  "repositorio": "https://github.com/lapanquecita/aguacate",
+  "commit": "649fc58cc0975fc9f2ec547369379c36018eb3e9",
+  "fecha_commit_utc": "2026-09-20T22:16:16Z",
+  "url_csv": "https://raw.githubusercontent.com/lapanquecita/aguacate/649fc58cc0975fc9f2ec547369379c36018eb3e9/data/siap_produccion.csv",
+  "consulta_fecha_local": "2026-10-04",
+  "sha256": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3",
+  "filas": 15474,
+  "columnas": 24,
+  "cobertura_original": "1980-2025",
+  "limitacion": "Descarga directa del portal oficial falló (HTTP 502). Copia secundaria con contraste parcial contra publicación gubernamental SEDARH 2023; no se afirma autenticación fila por fila. 2024 se excluye del panel principal por ambigüedad de clave."
+}

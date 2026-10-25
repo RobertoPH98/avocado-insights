@@ -1,0 +1,3 @@
+algoritmo,configuracion,familia_interpretabilidad,entradas_originales,MAE_confirmacion_t,tiempo_ajuste_confirmacion_s,seleccionado
+Cuantil,"{""alpha"":0.0,""features"":""completo""}",1,17,283.45020776427,5.096013313000185,False
+Huber,"{""alpha"":1.2649989970392911e-06,""epsilon"":1.01,""features"":""completo""}",1,17,283.3891229130714,0.9437052579996816,True

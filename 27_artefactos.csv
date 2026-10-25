@@ -1,0 +1,7 @@
+artefacto,ruta
+Modelo individual,data/avance4/modelo_individual_final.joblib
+Ficha y parámetros,data/avance4/ficha_modelo_avance4.json
+Ranking,resultados/avance4/09_comparativa_ordenada.csv
+Diarios de búsqueda,resultados/avance4/busquedas/
+Elección congelada,documentacion/avance4/seleccion_final_congelada.json
+Predicciones finales,resultados/avance4/19_predicciones_prueba_2025.csv

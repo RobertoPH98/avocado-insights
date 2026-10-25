@@ -1,0 +1,11 @@
+{
+  "Cuantil": {
+    "alpha": 0.0,
+    "features": "completo"
+  },
+  "Huber": {
+    "alpha": 1.2649989970392911e-06,
+    "epsilon": 1.01,
+    "features": "completo"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "proyecto": "Avocado Insights",
+  "fase": "Avance 4. Modelos alternativos",
+  "equipo": 4,
+  "fecha": "2026-10-24",
+  "commit_base": "71c97b1d245c0304df1f28a4a62be6c69143f243",
+  "sha256_agricola": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3",
+  "algoritmos_individuales": [
+    "ElasticNet",
+    "Huber",
+    "Cuantil",
+    "CART",
+    "KNN",
+    "SVR",
+    "MLP"
+  ],
+  "finalistas": [
+    "Cuantil",
+    "Huber"
+  ],
+  "configuraciones_exploradas": 96,
+  "ajustes_de_busqueda_registrados": 288,
+  "seleccion_final": {
+    "algoritmo": "Huber",
+    "configuracion": {
+      "alpha": 1.2649989970392911e-06,
+      "epsilon": 1.01,
+      "features": "completo"
+    },
+    "fase_eleccion": "confirmacion 2021–2022",
+    "regla": "entre los dos ajustados; si la diferencia de MAE de confirmación es <=1%, favorecer familia más interpretable y menos variables; después MAE",
+    "MAE_confirmacion_t": 283.3891229130714,
+    "etiquetas_2025_utilizadas_para_elegir": 0
+  },
+  "regresor_final": "HuberRegressor",
+  "ventanas": [
+    {
+      "fase": "ranking",
+      "anio_objetivo": 2015,
+      "fin_etiquetas_train": 2012,
+      "n_train": 2497,
+      "n_evaluacion": 509,
+      "ultima_medicion_X": 2013
+    },
+    {
+      "fase": "ranking",
+      "anio_objetivo": 2016,
+      "fin_etiquetas_train": 2013,
+      "n_train": 2944,
+      "n_evaluacion": 514,
+      "ultima_medicion_X": 2014
+    },
+    {
+      "fase": "ranking",
+      "anio_objetivo": 2017,
+      "fin_etiquetas_train": 2014,
+      "n_train": 3421,
+      "n_evaluacion": 529,
+      "ultima_medicion_X": 2015
+    },
+    {
+      "fase": "ajuste",
+      "anio_objetivo": 2018,
+      "fin_etiquetas_train": 2015,
+      "n_train": 3930,
+      "n_evaluacion": 558,
+      "ultima_medicion_X": 2016
+    },
+    {
+      "fase": "ajuste",
+      "anio_objetivo": 2019,
+      "fin_etiquetas_train": 2016,
+      "n_train": 4444,
+      "n_evaluacion": 578,
+      "ultima_medicion_X": 2017
+    },
+    {
+      "fase": "ajuste",
+      "anio_objetivo": 2020,
+      "fin_etiquetas_train": 2017,
+      "n_train": 4973,
+      "n_evaluacion": 598,
+      "ultima_medicion_X": 2018
+    },
+    {
+      "fase": "confirmacion",
+      "anio_objetivo": 2021,
+      "fin_etiquetas_train": 2018,
+      "n_train": 5531,
+      "n_evaluacion": 622,
+      "ultima_medicion_X": 2019
+    },
+    {
+      "fase": "confirmacion",
+      "anio_objetivo": 2022,
+      "fin_etiquetas_train": 2019,
+      "n_train": 6109,
+      "n_evaluacion": 634,
+      "ultima_medicion_X": 2020
+    },
+    {
+      "fase": "prueba",
+      "anio_objetivo": 2025,
+      "fin_etiquetas_train": 2022,
+      "n_train": 7963,
+      "n_evaluacion": 647,
+      "ultima_medicion_X": 2023
+    }
+  ],
+  "entrenamiento_final_filas": 7963,
+  "prueba_interna": {
+    "anio": 2025,
+    "filas": 647,
+    "metricas": {
+      "n": 647,
+      "MAE_t": 579.4988465114455,
+      "RMSE_t": 4678.198563968359,
+      "WAPE_pct": 13.440548897273722,
+      "sesgo_t": 289.6110619788557,
+      "sesgo_pct": 6.717065380114262,
+      "R2": 0.9527738985805373,
+      "RMSLE": 0.8703158796545237
+    },
+    "MAE_Ridge_t": 755.3439769244426,
+    "mejora_vs_Ridge": 0.2328013935174158
+  },
+  "cumple_referencia_Ridge_puntual": true,
+  "sensibilidad_estatal": {
+    "n_replicas": 1500,
+    "semilla": 42,
+    "estados": 29,
+    "skill_puntual": 0.2328013935174159,
+    "percentil_2_5": -0.130845907458075,
+    "percentil_97_5": 0.2897086870538537
+  },
+  "diagnostico_numerico_final": {
+    "clase": "HuberRegressor",
+    "modulo": "sklearn.linear_model._huber",
+    "columnas_efectivas": 24,
+    "convergencia": true,
+    "reintento_presupuesto": false,
+    "iteraciones": 908,
+    "advertencias": []
+  },
+  "variables": [
+    "produccion_lag2",
+    "cosechada_lag2",
+    "sembrada_lag2",
+    "rendimiento_lag2",
+    "cambio_log_produccion",
+    "cv_produccion_3",
+    "inflacion_usa_lag2",
+    "depreciacion_mxn_lag2",
+    "oferta_x_inflacion",
+    "oferta_x_depreciacion",
+    "temperatura_estado_lag2",
+    "amplitud_mensual_lag2",
+    "cambio_temperatura_lag2",
+    "oferta_x_cambio_temperatura",
+    "log_produccion_lag2",
+    "log_cosechada_lag2",
+    "log_sembrada_lag2"
+  ],
+  "columnas_efectivas": [
+    "produccion_lag2",
+    "cosechada_lag2",
+    "sembrada_lag2",
+    "rendimiento_lag2",
+    "cambio_log_produccion",
+    "cv_produccion_3",
+    "inflacion_usa_lag2",
+    "depreciacion_mxn_lag2",
+    "oferta_x_inflacion",
+    "oferta_x_depreciacion",
+    "temperatura_estado_lag2",
+    "amplitud_mensual_lag2",
+    "cambio_temperatura_lag2",
+    "oferta_x_cambio_temperatura",
+    "log_produccion_lag2",
+    "log_cosechada_lag2",
+    "log_sembrada_lag2",
+    "falta_rendimiento_lag2",
+    "falta_cambio_log_produccion",
+    "falta_cv_produccion_3",
+    "falta_temperatura_estado_lag2",
+    "falta_amplitud_mensual_lag2",
+    "falta_cambio_temperatura_lag2",
+    "falta_oferta_x_cambio_temperatura"
+  ],
+  "coeficientes": [
+    {
+      "variable": "produccion_lag2",
+      "coeficiente_por_unidad_original": 0.8285413962734112,
+      "cambio_t_por_una_escala_X": 14593.63814075719
+    },
+    {
+      "variable": "cosechada_lag2",
+      "coeficiente_por_unidad_original": -2.832262161113136,
+      "cambio_t_por_una_escala_X": -4663.562435580575
+    },
+    {
+      "variable": "sembrada_lag2",
+      "coeficiente_por_unidad_original": 5.378529104193893,
+      "cambio_t_por_una_escala_X": 9201.073574311727
+    },
+    {
+      "variable": "rendimiento_lag2",
+      "coeficiente_por_unidad_original": 0.009933264496538361,
+      "cambio_t_por_una_escala_X": 0.04146057305627894
+    },
+    {
+      "variable": "cambio_log_produccion",
+      "coeficiente_por_unidad_original": -2.3553182278355766,
+      "cambio_t_por_una_escala_X": -1.9442742942660016
+    },
+    {
+      "variable": "cv_produccion_3",
+      "coeficiente_por_unidad_original": 6.272059519756216,
+      "cambio_t_por_una_escala_X": 2.228576855130925
+    },
+    {
+      "variable": "inflacion_usa_lag2",
+      "coeficiente_por_unidad_original": -0.3061429104143585,
+      "cambio_t_por_una_escala_X": -0.3264821818553374
+    },
+    {
+      "variable": "depreciacion_mxn_lag2",
+      "coeficiente_por_unidad_original": -0.09737918249311439,
+      "cambio_t_por_una_escala_X": -0.7976077602223689
+    },
+    {
+      "variable": "oferta_x_inflacion",
+      "coeficiente_por_unidad_original": -1.649767939712725,
+      "cambio_t_por_una_escala_X": -630.2062385022923
+    },
+    {
+      "variable": "oferta_x_depreciacion",
+      "coeficiente_por_unidad_original": 0.13346783926082606,
+      "cambio_t_por_una_escala_X": 225.2087477024377
+    },
+    {
+      "variable": "temperatura_estado_lag2",
+      "coeficiente_por_unidad_original": -0.4657926281118362,
+      "cambio_t_por_una_escala_X": -1.4242548134064077
+    },
+    {
+      "variable": "amplitud_mensual_lag2",
+      "coeficiente_por_unidad_original": 0.18019214204108414,
+      "cambio_t_por_una_escala_X": 0.3677631957460796
+    },
+    {
+      "variable": "cambio_temperatura_lag2",
+      "coeficiente_por_unidad_original": -3.0392146470150903,
+      "cambio_t_por_una_escala_X": -1.2957094421948203
+    },
+    {
+      "variable": "oferta_x_cambio_temperatura",
+      "coeficiente_por_unidad_original": 0.04753410451350044,
+      "cambio_t_por_una_escala_X": 448.94541960119176
+    },
+    {
+      "variable": "log_produccion_lag2",
+      "coeficiente_por_unidad_original": 19.267307365877407,
+      "cambio_t_por_una_escala_X": 48.41336302017854
+    },
+    {
+      "variable": "log_cosechada_lag2",
+      "coeficiente_por_unidad_original": -0.26345313392054026,
+      "cambio_t_por_una_escala_X": -0.526658577624461
+    },
+    {
+      "variable": "log_sembrada_lag2",
+      "coeficiente_por_unidad_original": -43.192145621022455,
+      "cambio_t_por_una_escala_X": -81.32962616229398
+    },
+    {
+      "variable": "falta_rendimiento_lag2",
+      "coeficiente_por_unidad_original": 41.5237322073077,
+      "cambio_t_por_una_escala_X": 11.369048805854645
+    },
+    {
+      "variable": "falta_cambio_log_produccion",
+      "coeficiente_por_unidad_original": -3.298320500001553,
+      "cambio_t_por_una_escala_X": -0.7066228938751532
+    },
+    {
+      "variable": "falta_cv_produccion_3",
+      "coeficiente_por_unidad_original": 0.5085217723595313,
+      "cambio_t_por_una_escala_X": 0.14500952645998114
+    },
+    {
+      "variable": "falta_temperatura_estado_lag2",
+      "coeficiente_por_unidad_original": -0.904343962923542,
+      "cambio_t_por_una_escala_X": -0.2212129326973853
+    },
+    {
+      "variable": "falta_amplitud_mensual_lag2",
+      "coeficiente_por_unidad_original": -0.904343962923542,
+      "cambio_t_por_una_escala_X": -0.2212129326973853
+    },
+    {
+      "variable": "falta_cambio_temperatura_lag2",
+      "coeficiente_por_unidad_original": 0.9099103731272731,
+      "cambio_t_por_una_escala_X": 0.3044664562733935
+    },
+    {
+      "variable": "falta_oferta_x_cambio_temperatura",
+      "coeficiente_por_unidad_original": 0.9099103731272731,
+      "cambio_t_por_una_escala_X": 0.3044664562733935
+    }
+  ],
+  "intercepto_original_t": 15.657595937793758,
+  "controles_aprobados": 33,
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "pdfplumber": "0.11.9"
+  },
+  "limitaciones": [
+    "Selección y evaluación retrospectivas con instantáneas revisadas",
+    "2025 ya explorado descriptivamente en EDA",
+    "Sin historia completa de fechas de publicación",
+    "Dependencia temporal/estatal y concentración productiva",
+    "Fuentes 2024 agrícola y 2013 climática en cuarentena",
+    "Epsilon ganador de Huber en frontera inferior explorada",
+    "La ganancia de MAE no implica mejora de todas las métricas o territorios"
+  ],
+  "estado_operativo": "Modelo individual de investigación para la siguiente etapa; aceptación de negocio pendiente"
+}

@@ -1,0 +1,34 @@
+control,estado,evidencia
+Fuente agrícola idéntica,OK,f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3
+Continuidad src/fe_avance2.py,OK,1c9be1d6086e67236e6db7e8b5b6f1a9a10649a526e7e7a1b32b736c3b407405
+Continuidad src/baseline_avance3.py,OK,e247266192b5836c48e9a0bae494b989b3bf25ccf6fec347fc53acc3fec0d10e
+Continuidad data/raw/siap_produccion.csv,OK,f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3
+Continuidad data/raw/LICENSE_fuente.txt,OK,012b37bc7272270ef8b5965c031876db1cea0987665ab79d94a434b4e487bab6
+Continuidad data/proveniencia.json,OK,e13059e3f42e5b9d3d4acd2bb7fa8f9b360176c1881699fe8c2c857d6cecb69a
+Continuidad data/externos/inflacion_usa.json,OK,f5ec399dd198a6e6a5eb4bd4ee4279929b3358e68f49f8c1d16855a03ed435d2
+Continuidad data/externos/tipo_cambio_mex.json,OK,011be31256860838cb11558946e1f48277a07063840be8e5706e97567f766696
+Continuidad data/externos/proveniencia_externos.json,OK,018a6049732df58020826099043980b34f59cb8e35f9446b178a9c87549c4497
+Continuidad data/externos/proveniencia_smn.json,OK,0c1f6b10f8fb9e7d881858c6715ed1739a345274b87332cf90790f4977ec3631
+Continuidad data/externos/smn_temperatura_fuentes.zip,OK,601c7c25ffa2148787abc9b1a443c607a2879127f90c254abc00122c248ec424
+Claves únicas,OK,9247
+Cuarentenas preservadas,OK,Sin municipios inventados ni reasignación climática
+Siete algoritmos diferentes,OK,"['ElasticNet', 'Huber', 'Cuantil', 'CART', 'KNN', 'SVR', 'MLP']"
+Al menos seis alternativas convergentes,OK,"[{'algoritmo': 'Cuantil', 'convergencia_todas': True}, {'algoritmo': 'Huber', 'convergencia_todas': True}, {'algoritmo': 'ElasticNet', 'convergencia_todas': True}, {'algoritmo': 'CART', 'convergencia_todas': True}, {'algoritmo': 'MLP', 'convergencia_todas': True}, {'algoritmo': 'KNN', 'convergencia_todas': True}, {'algoritmo': 'SVR', 'convergencia_todas': True}]"
+Dos finalistas procedentes del ranking,OK,"['Cuantil', 'Huber']"
+96 configuraciones distintas,OK,"[{'algoritmo': 'Cuantil', 'configuraciones': 48, 'convergentes': 48}, {'algoritmo': 'Huber', 'configuraciones': 48, 'convergentes': 48}]"
+Preparación temporal por ventana,OK,"[{'anio_objetivo': 2015, 'fin_etiquetas_train': 2012}, {'anio_objetivo': 2016, 'fin_etiquetas_train': 2013}, {'anio_objetivo': 2017, 'fin_etiquetas_train': 2014}, {'anio_objetivo': 2018, 'fin_etiquetas_train': 2015}, {'anio_objetivo': 2019, 'fin_etiquetas_train': 2016}, {'anio_objetivo': 2020, 'fin_etiquetas_train': 2017}, {'anio_objetivo': 2021, 'fin_etiquetas_train': 2018}, {'anio_objetivo': 2022, 'fin_etiquetas_train': 2019}, {'anio_objetivo': 2025, 'fin_etiquetas_train': 2022}]"
+Búsqueda sin reserva Cuantil,OK,144
+Búsqueda sin reserva Huber,OK,144
+Confirmación separada,OK,No se reoptimizan hiperparámetros en confirmación
+Protocolo sin cambios,OK,1da4adba705522d652b6c4821da36f02c472908b381d49b4b3ae1a4eb12859fe
+Elección congelada,OK,13c41e272690e9577f11dfb16051246d5f8aa011e5f7b9a7190a9725f7edb2ed
+Prueba 2025 no usada para elegir,OK,Selección previa a prueba
+Ajuste final hasta 2022,OK,7963
+Único regresor final,OK,sklearn.linear_model._huber.HuberRegressor
+Objetivo fuera de entradas,OK,"['produccion_lag2', 'cosechada_lag2', 'sembrada_lag2', 'rendimiento_lag2', 'cambio_log_produccion', 'cv_produccion_3', 'inflacion_usa_lag2', 'depreciacion_mxn_lag2', 'oferta_x_inflacion', 'oferta_x_depreciacion', 'temperatura_estado_lag2', 'amplitud_mensual_lag2', 'cambio_temperatura_lag2', 'oferta_x_cambio_temperatura', 'log_produccion_lag2', 'log_cosechada_lag2', 'log_sembrada_lag2']"
+Perturbar y no cambia X/predicción,OK,Copia artificial solo para control de código
+Predicción no reajusta estado,OK,"Imputación, escalas y regresor congelados"
+Escalamiento de y solo con entrenamiento,OK,7963.0
+Matrices y salidas finitas,OK,"(647, 24)"
+Modelo final convergente,OK,"{'clase': 'HuberRegressor', 'modulo': 'sklearn.linear_model._huber', 'columnas_efectivas': 24, 'convergencia': True, 'reintento_presupuesto': False, 'iteraciones': 908, 'advertencias': []}"
+Restauración reproduce predicciones,OK,Mismas predicciones después de guardar/restaurar

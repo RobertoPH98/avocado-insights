@@ -1,0 +1,57 @@
+{
+  "repositorio": "https://github.com/RobertoPH98/avocado-insights",
+  "commit": "71c97b1d245c0304df1f28a4a62be6c69143f243",
+  "consulta": "2026-10-24",
+  "entradas_verificadas": [
+    {
+      "ruta": "src/fe_avance2.py",
+      "bytes": 17344,
+      "sha256": "1c9be1d6086e67236e6db7e8b5b6f1a9a10649a526e7e7a1b32b736c3b407405"
+    },
+    {
+      "ruta": "src/baseline_avance3.py",
+      "bytes": 15538,
+      "sha256": "e247266192b5836c48e9a0bae494b989b3bf25ccf6fec347fc53acc3fec0d10e"
+    },
+    {
+      "ruta": "data/raw/siap_produccion.csv",
+      "bytes": 2492646,
+      "sha256": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3"
+    },
+    {
+      "ruta": "data/raw/LICENSE_fuente.txt",
+      "bytes": 1063,
+      "sha256": "012b37bc7272270ef8b5965c031876db1cea0987665ab79d94a434b4e487bab6"
+    },
+    {
+      "ruta": "data/proveniencia.json",
+      "bytes": 987,
+      "sha256": "e13059e3f42e5b9d3d4acd2bb7fa8f9b360176c1881699fe8c2c857d6cecb69a"
+    },
+    {
+      "ruta": "data/externos/inflacion_usa.json",
+      "bytes": 5681,
+      "sha256": "f5ec399dd198a6e6a5eb4bd4ee4279929b3358e68f49f8c1d16855a03ed435d2"
+    },
+    {
+      "ruta": "data/externos/tipo_cambio_mex.json",
+      "bytes": 5774,
+      "sha256": "011be31256860838cb11558946e1f48277a07063840be8e5706e97567f766696"
+    },
+    {
+      "ruta": "data/externos/proveniencia_externos.json",
+      "bytes": 978,
+      "sha256": "018a6049732df58020826099043980b34f59cb8e35f9446b178a9c87549c4497"
+    },
+    {
+      "ruta": "data/externos/proveniencia_smn.json",
+      "bytes": 6995,
+      "sha256": "0c1f6b10f8fb9e7d881858c6715ed1739a345274b87332cf90790f4977ec3631"
+    },
+    {
+      "ruta": "data/externos/smn_temperatura_fuentes.zip",
+      "bytes": 2284318,
+      "sha256": "601c7c25ffa2148787abc9b1a443c607a2879127f90c254abc00122c248ec424"
+    }
+  ]
+}
