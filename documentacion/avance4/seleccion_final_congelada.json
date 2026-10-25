@@ -1,0 +1,12 @@
+{
+  "algoritmo": "Huber",
+  "configuracion": {
+    "alpha": 1.2649989970392911e-06,
+    "epsilon": 1.01,
+    "features": "completo"
+  },
+  "fase_eleccion": "confirmacion 2021–2022",
+  "regla": "entre los dos ajustados; si la diferencia de MAE de confirmación es <=1%, favorecer familia más interpretable y menos variables; después MAE",
+  "MAE_confirmacion_t": 283.3891229130714,
+  "etiquetas_2025_utilizadas_para_elegir": 0
+}

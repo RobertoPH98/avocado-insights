@@ -1,0 +1,10 @@
+fase,anio_objetivo,fin_etiquetas_train,n_train,n_evaluacion,ultima_medicion_X
+ranking,2015,2012,2497,509,2013
+ranking,2016,2013,2944,514,2014
+ranking,2017,2014,3421,529,2015
+ajuste,2018,2015,3930,558,2016
+ajuste,2019,2016,4444,578,2017
+ajuste,2020,2017,4973,598,2018
+confirmacion,2021,2018,5531,622,2019
+confirmacion,2022,2019,6109,634,2020
+prueba,2025,2022,7963,647,2023

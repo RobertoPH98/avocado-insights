@@ -1,0 +1,6 @@
+algoritmo,parametro,valores_exploracion,catalogo_configuraciones,refinamiento
+Cuantil,features,"[""nivel"", ""capacidad"", ""agro_clima"", ""completo""]",24,Parámetros continuos alrededor del mejor y dos conjuntos de entradas mejor evaluados
+Cuantil,alpha,"[0.0, 0.0001, 0.001, 0.01, 0.1, 1.0]",24,Parámetros continuos alrededor del mejor y dos conjuntos de entradas mejor evaluados
+Huber,features,"[""nivel"", ""capacidad"", ""agro_clima"", ""completo""]",120,Parámetros continuos alrededor del mejor y dos conjuntos de entradas mejor evaluados
+Huber,epsilon,"[1.1, 1.2, 1.35, 1.5, 1.8, 2.0]",120,Parámetros continuos alrededor del mejor y dos conjuntos de entradas mejor evaluados
+Huber,alpha,"[1e-06, 0.0001, 0.01, 1.0, 100.0]",120,Parámetros continuos alrededor del mejor y dos conjuntos de entradas mejor evaluados

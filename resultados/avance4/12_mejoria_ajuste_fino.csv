@@ -1,0 +1,3 @@
+algoritmo,MAE_inicial_ajuste_t,MAE_ajustado_t,mejora_MAE_pct,RMSE_inicial_t,RMSE_ajustado_t,tiempo_config_inicial_s,tiempo_config_ajustada_s,configuracion_finalista
+Cuantil,482.7066190856103,455.51366406228533,5.633433217641914,1825.951136231819,1660.9640582335392,4.4189398240005175,4.566487933999724,"{""alpha"":0.0,""features"":""completo""}"
+Huber,456.61968765132593,455.18168749015217,0.31492294354855677,1660.8573016415455,1659.4440348876558,0.9374454419998983,1.2449332040000627,"{""alpha"":1.2649989970392911e-06,""epsilon"":1.01,""features"":""completo""}"

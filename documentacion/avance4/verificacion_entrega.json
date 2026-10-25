@@ -1,0 +1,48 @@
+{
+  "notebook": "notebooks/Avance4.Equipo4.ipynb",
+  "celdas_codigo": 15,
+  "secuencia": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "errores": 0,
+  "stderr": 0,
+  "figuras_incrustadas": 8,
+  "controles_analiticos_aprobados": 33,
+  "declaracion_IA_ultima_celda": true,
+  "algoritmos_individuales": [
+    "ElasticNet",
+    "Huber",
+    "Cuantil",
+    "CART",
+    "KNN",
+    "SVR",
+    "MLP"
+  ],
+  "configuraciones_exploradas": 96,
+  "ajustes_busqueda_por_ventana": 288,
+  "metodo_ejecucion": {
+    "celdas_codigo": 15,
+    "errores": 0,
+    "metodo": "IPython en proceso nuevo; celdas reales ejecutadas secuencialmente, namespace limpio, sin sockets de kernel"
+  },
+  "rubrica": {
+    "comparativa_60": "Secciones 3–4: siete algoritmos, tabla ordenada por MAE, métricas adicionales y tiempos",
+    "ajuste_fino_30": "Sección 4: dos finalistas, 48 configuraciones por familia, exploración y refinamiento, mejoras sobre mismas ventanas",
+    "modelo_individual_10": "Secciones 5, 7 y 9: elección previa a prueba, interpretación, complejidad, tiempos y límites"
+  },
+  "alcance_verificacion": "Ejecución, integridad y controles automáticos; no certificación de calificación ni revisión humana individual"
+}

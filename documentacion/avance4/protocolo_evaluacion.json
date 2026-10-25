@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-10-24",
+  "objetivo": "produccion_t",
+  "metrica_principal": "MAE_t",
+  "metricas_complementarias": [
+    "RMSE_t",
+    "WAPE_pct",
+    "sesgo_pct",
+    "R2",
+    "RMSLE"
+  ],
+  "ultima_medicion_X": "t-2",
+  "ultima_etiqueta_ajuste": "t-3",
+  "ranking_inicial": [
+    2015,
+    2016,
+    2017
+  ],
+  "ajuste_fino": [
+    2018,
+    2019,
+    2020
+  ],
+  "confirmacion_eleccion_final": [
+    2021,
+    2022
+  ],
+  "prueba_final_interna": 2025,
+  "año_previamente_evaluado_no_nuevo_holdout": 2023,
+  "familias": [
+    "ElasticNet",
+    "Huber",
+    "Cuantil",
+    "CART",
+    "KNN",
+    "SVR",
+    "MLP"
+  ],
+  "solo_modelos_individuales": true,
+  "configuraciones_por_finalista": 48,
+  "estrategia_busqueda": "exploración reproducible y refinamiento local; configuración inicial incluida",
+  "seleccion_top2": "menor MAE concatenado del ranking inicial; baseline Ridge no participa como candidato",
+  "regla_final": "entre los dos ajustados; si la diferencia de MAE de confirmación es <=1%, favorecer familia más interpretable y menos variables; después MAE",
+  "preferencia_interpretabilidad": {
+    "ElasticNet": 1,
+    "Huber": 1,
+    "Cuantil": 1,
+    "CART": 2,
+    "KNN": 3,
+    "SVR": 4,
+    "MLP": 5
+  },
+  "parametros_que_no_se_ajustan": [
+    "rezagos",
+    "cortes temporales",
+    "metrica principal",
+    "regla de elección después de puntuar 2025"
+  ],
+  "limite_afirmacion": "Mejor configuración entre las exploradas; no garantiza óptimo global ni eficacia prospectiva"
+}

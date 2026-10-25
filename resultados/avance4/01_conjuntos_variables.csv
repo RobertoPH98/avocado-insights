@@ -1,0 +1,5 @@
+conjunto,entradas_originales,variables
+nivel,1,produccion_lag2
+capacidad,6,"produccion_lag2, cosechada_lag2, sembrada_lag2, rendimiento_lag2, cambio_log_produccion, cv_produccion_3"
+agro_clima,10,"produccion_lag2, cosechada_lag2, sembrada_lag2, rendimiento_lag2, cambio_log_produccion, cv_produccion_3, temperatura_estado_lag2, amplitud_mensual_lag2, cambio_temperatura_lag2, oferta_x_cambio_temperatura"
+completo,17,"produccion_lag2, cosechada_lag2, sembrada_lag2, rendimiento_lag2, cambio_log_produccion, cv_produccion_3, inflacion_usa_lag2, depreciacion_mxn_lag2, oferta_x_inflacion, oferta_x_depreciacion, temperatura_estado_lag2, amplitud_mensual_lag2, cambio_temperatura_lag2, oferta_x_cambio_temperatura, log_produccion_lag2, log_cosechada_lag2, log_sembrada_lag2"

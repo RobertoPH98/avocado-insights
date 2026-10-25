@@ -1,0 +1,8 @@
+{
+  "fase_eleccion": "ranking 2015–2017",
+  "algoritmos": [
+    "Cuantil",
+    "Huber"
+  ],
+  "criterio": "Menor MAE entre alternativas convergentes; referencias no compiten"
+}
