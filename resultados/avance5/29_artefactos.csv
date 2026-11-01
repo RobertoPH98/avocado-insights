@@ -1,0 +1,7 @@
+artefacto,ruta
+Libreta principal,notebooks/Avance5.Equipo4.ipynb
+Predictor final,data/avance5/modelo_final.joblib
+Ficha estructurada,data/avance5/ficha_modelo_final.json
+Comparativa ordenada,resultados/avance5/17_comparativa_pruebas_ordenada.csv
+Parámetros y selección,documentacion/avance5/seleccion_final_congelada.json
+Diarios de búsqueda,resultados/avance5/busquedas/

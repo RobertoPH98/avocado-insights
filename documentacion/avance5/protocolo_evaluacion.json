@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-11-01",
+  "objetivo": "produccion_t",
+  "metrica_principal": "MAE_t",
+  "ultima_medicion_X": "t-2",
+  "ultima_etiqueta_ajuste": "t-3",
+  "desarrollo_busqueda": [
+    2018,
+    2019,
+    2020
+  ],
+  "confirmacion_eleccion": [
+    2021,
+    2022
+  ],
+  "evaluacion_retrospectiva_reutilizada": [
+    2023,
+    2025
+  ],
+  "ensembles": 7,
+  "estrategias": [
+    "homogenea",
+    "heterogenea"
+  ],
+  "bases_heterogeneas": [
+    "Huber ajustado A4",
+    "Cuantil ajustado A4"
+  ],
+  "modelos_relevantes": 3,
+  "regla_relevancia": "mejor homogéneo, mejor heterogéneo y mejor restante por MAE de desarrollo; solo convergentes",
+  "configuraciones_por_relevante": 24,
+  "busqueda": "Muestreo sin reemplazo con semilla fija del catálogo; inicial incluida",
+  "regla_final": "Menor MAE de confirmación; dentro de 1% del mínimo, menor complejidad registrada, luego MAE y nombre; referencias también elegibles",
+  "meta_oof": "Objetivo interno s; bases ajustadas solo con etiquetas <=s-3, preparación por ajuste",
+  "blending": "Calibración últimos 1 o 2 años del entrenamiento externo; bases <= primer año de calibración-3 y se conservan sin refit",
+  "permutacion": "Diagnóstico después de selección; no modifica variables ni parámetros",
+  "advertencia": "2023 y 2025 vistos en fases previas; sin reserva global independiente; estimación retrospectiva, no prospectiva"
+}

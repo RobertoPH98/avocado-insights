@@ -1,0 +1,4 @@
+modelo,MAE_inicial_t,MAE_ajustado_t,mejora_pct,configuraciones,convergentes,configuracion,segundos_experimentacion_con_cache
+Bagging Huber,471.53716152606825,467.0814065984105,0.9449424756337921,24,24,"{""features"":""capacidad"",""max_features"":1.0,""max_samples"":0.6,""n_estimators"":8,""target"":""nivel""}",364.31504335900104
+Voting H-Q,455.3472479821466,455.18829133889676,0.034908884143747265,24,24,"{""peso_Huber"":0.98}",7.971886923999364
+HistGradientBoosting,484.104697173685,470.1041491646827,2.8920496104955618,24,24,"{""features"":""capacidad"",""l2_regularization"":1.0,""learning_rate"":0.1,""max_iter"":180,""max_leaf_nodes"":3,""min_samples_leaf"":25,""target"":""residuo""}",12.082007665000674

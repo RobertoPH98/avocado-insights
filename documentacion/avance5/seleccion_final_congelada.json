@@ -1,0 +1,7 @@
+{
+  "modelo": "Ridge A3",
+  "configuracion": {},
+  "regla": "Menor MAE de confirmación; dentro de 1% del mínimo, menor complejidad registrada, luego MAE y nombre; referencias también elegibles",
+  "fase": "Confirmación 2021–2022",
+  "consulta_test_para_elegir": false
+}

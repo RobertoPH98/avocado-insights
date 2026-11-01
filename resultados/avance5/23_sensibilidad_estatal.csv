@@ -1,0 +1,2 @@
+n_replicas,semilla,estados,skill_puntual,percentil_2_5,percentil_97_5,referencia,unidad_remuestreo
+1500,42,29,-0.30344345199576495,-0.4078730549646782,0.11570607063561231,Huber A4,estado

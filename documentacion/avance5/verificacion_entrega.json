@@ -1,0 +1,48 @@
+{
+  "notebook": "notebooks/Avance5.Equipo4.ipynb",
+  "celdas_codigo": 15,
+  "secuencia": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "errores": 0,
+  "stderr": 0,
+  "figuras_incrustadas": 12,
+  "controles_analiticos": 37,
+  "declaracion_IA_y_contribuciones_identicas_A4": true,
+  "ensambles": [
+    "Bagging Huber",
+    "Random Forest",
+    "Extra Trees",
+    "HistGradientBoosting",
+    "Voting H-Q",
+    "Stacking temporal",
+    "Blending temporal"
+  ],
+  "configuraciones": 72,
+  "evaluaciones_busqueda": 216,
+  "metodo_ejecucion": {
+    "celdas_codigo": 15,
+    "errores": 0,
+    "metodo": "IPython en proceso nuevo; celdas reales ejecutadas secuencialmente, namespace limpio, sin sockets de kernel"
+  },
+  "rubrica": {
+    "ensambles_60": "Secciones 2–3: cuatro homogéneos, tres heterogéneos y dos mejores bases A4; OOF/calibración temporal y optimización",
+    "seleccion_20": "Secciones 3–4 y 7: individuales y siete ensambles, tablas ordenadas, más de dos métricas adicionales y tiempos completos",
+    "graficos_20": "Sección 5: cuatro gráficos principales, cada uno con interpretación detallada; tendencia, sensibilidad y estados complementarios"
+  },
+  "alcance": "Verificación automática de ejecución e integridad; no certificación de calificación ni validación prospectiva"
+}

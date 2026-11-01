@@ -1,0 +1,184 @@
+{
+  "proyecto": "Avocado Insights",
+  "fase": "Avance 5. Modelo final",
+  "equipo": 4,
+  "fecha": "2026-11-01",
+  "modelo": "Ridge A3",
+  "estrategia": "Individual / referencia",
+  "seleccion": {
+    "modelo": "Ridge A3",
+    "configuracion": {},
+    "regla": "Menor MAE de confirmación; dentro de 1% del mínimo, menor complejidad registrada, luego MAE y nombre; referencias también elegibles",
+    "fase": "Confirmación 2021–2022",
+    "consulta_test_para_elegir": false
+  },
+  "regla_complejidad": {
+    "Persistencia t-2": 0,
+    "Ridge A3": 1,
+    "ElasticNet": 2,
+    "Huber": 2,
+    "Cuantil": 2,
+    "CART": 3,
+    "Voting H-Q": 4,
+    "Blending temporal": 5,
+    "Stacking temporal": 6,
+    "Bagging Huber": 7,
+    "KNN": 8,
+    "Random Forest": 9,
+    "Extra Trees": 9,
+    "HistGradientBoosting": 10,
+    "SVR": 11,
+    "MLP": 12
+  },
+  "ensambles": [
+    "Bagging Huber",
+    "Random Forest",
+    "Extra Trees",
+    "HistGradientBoosting",
+    "Voting H-Q",
+    "Stacking temporal",
+    "Blending temporal"
+  ],
+  "relevantes": [
+    "Bagging Huber",
+    "Voting H-Q",
+    "HistGradientBoosting"
+  ],
+  "configuraciones_optimizadas": 72,
+  "evaluaciones_busqueda": 216,
+  "configuraciones_ensambles": {
+    "Bagging Huber": {
+      "features": "capacidad",
+      "max_features": 1.0,
+      "max_samples": 0.6,
+      "n_estimators": 8,
+      "target": "nivel"
+    },
+    "Random Forest": {
+      "n_estimators": 96,
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "max_features": 1.0,
+      "features": "completo",
+      "target": "residuo"
+    },
+    "Extra Trees": {
+      "n_estimators": 96,
+      "max_depth": 8,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "features": "completo",
+      "target": "residuo"
+    },
+    "HistGradientBoosting": {
+      "features": "capacidad",
+      "l2_regularization": 1.0,
+      "learning_rate": 0.1,
+      "max_iter": 180,
+      "max_leaf_nodes": 3,
+      "min_samples_leaf": 25,
+      "target": "residuo"
+    },
+    "Voting H-Q": {
+      "peso_Huber": 0.98
+    },
+    "Stacking temporal": {
+      "inner_years": 3,
+      "meta": "ridge",
+      "alpha": 1.0
+    },
+    "Blending temporal": {
+      "blend_years": 2,
+      "meta": "ridge",
+      "alpha": 1.0
+    }
+  },
+  "bases_A4": {
+    "Cuantil": {
+      "alpha": 0.0,
+      "features": "completo"
+    },
+    "Huber": {
+      "alpha": 1.2649989970392911e-06,
+      "epsilon": 1.01,
+      "features": "completo"
+    }
+  },
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "pdfplumber": "0.11.9"
+  },
+  "fuente_agricola_sha256": "f195190c043409188741ea4a6a2bbb44343aaeaa1f2e02dc17b6bd5f394f9dd3",
+  "protocolo_sha256": "f3c358e7581ad1f1587b31f1f43f8b2bc3fe26d2979c965cf6b5642d1a643834",
+  "seleccion_sha256": "d65c3ee102b0d07d66642f6efd746c7cc805c4c9093fcd904184080a6e0d7b5f",
+  "entrenamiento_final": {
+    "inicio": 2007,
+    "fin": 2022,
+    "filas": 7963,
+    "metricas": {
+      "n": 7963,
+      "MAE_t": 512.185205421146,
+      "RMSE_t": 2894.476743638377,
+      "WAPE_pct": 14.787799685101703,
+      "sesgo_t": -207.13125854945045,
+      "sesgo_pct": -5.980289019542664,
+      "R2": 0.9758284253298098,
+      "RMSLE": 1.0910215127405567
+    }
+  },
+  "prueba_reutilizada_2025": {
+    "filas": 647,
+    "metricas": {
+      "n": 647,
+      "MAE_t": 755.3439769244426,
+      "RMSE_t": 6478.327548786849,
+      "WAPE_pct": 17.51899545138033,
+      "sesgo_t": 496.0309036400026,
+      "sesgo_pct": 11.504643460581326,
+      "R2": 0.9094370422869278,
+      "RMSLE": 0.6093653483608619
+    },
+    "referencia_Huber": {
+      "n": 647,
+      "MAE_t": 579.4988465114455,
+      "RMSE_t": 4678.198563968359,
+      "WAPE_pct": 13.440548897273722,
+      "sesgo_t": 289.6110619788557,
+      "sesgo_pct": 6.717065380114262,
+      "R2": 0.9527738985805373,
+      "RMSLE": 0.8703158796545237
+    },
+    "skill_vs_Huber": -0.30344345199576495
+  },
+  "sensibilidad_estatal": {
+    "n_replicas": 1500,
+    "semilla": 42,
+    "estados": 29,
+    "skill_puntual": -0.30344345199576495,
+    "percentil_2_5": -0.4078730549646782,
+    "percentil_97_5": 0.11570607063561231
+  },
+  "variables": [
+    "produccion_lag2"
+  ],
+  "matrices": "X cruda antes de preparación; nombres incluidos, permite NaN",
+  "mejor_individual_confirmacion": "Huber",
+  "mejor_ensamble_confirmacion": "Voting H-Q",
+  "controles_aprobados": 37,
+  "figuras": 12,
+  "limites": [
+    "2023 y 2025 ya examinados en fases anteriores; evaluación retrospectiva reutilizada",
+    "No se dispone de vintages completos de publicación",
+    "2024 agrícola y 2013 climático aislados",
+    "Sin costos de error aprobados por sponsor",
+    "Dependencia temporal/estatal y cohorte con historia t−2",
+    "Mejor configuración explorada; no óptimo global ni garantía de generalización prospectiva"
+  ]
+}

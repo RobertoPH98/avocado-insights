@@ -1,0 +1,8 @@
+{
+  "modelos": [
+    "Bagging Huber",
+    "Voting H-Q",
+    "HistGradientBoosting"
+  ],
+  "criterio": "mejor homogéneo, mejor heterogéneo y mejor restante por MAE de desarrollo; solo convergentes"
+}
